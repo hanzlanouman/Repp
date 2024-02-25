@@ -6,7 +6,7 @@ import toast from 'react-hot-toast';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
 import { useTodoStore } from '../store';
-import { useEffect } from 'react'; s
+import { useEffect } from 'react';
 
 // Validation Schema for the Todo Form
 const schema = z.object({
